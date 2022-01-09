@@ -58,4 +58,5 @@ alias "list-taints"="kubectl get nodes -o json | jq '.items[].spec.taints'"
 
 alias "go-main"="cat \"$HOME/template/main.go\""
 alias "go-crud"="cat \"$HOME/template/crud.go\""
+alias "go-test"="cat \"$HOME/template/example_test.go\""
 alias "go-project"="cp -r \"$HOME/template/go-project\" ."
