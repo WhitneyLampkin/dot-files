@@ -15,13 +15,6 @@ func TestExample(t *testing.T) {
         }
 }
 
-
-
-
-import (
-	"testing"
-)
-
 func TestTimesThree(t *testing.T) {
 	tests := []struct {
 		name     string
